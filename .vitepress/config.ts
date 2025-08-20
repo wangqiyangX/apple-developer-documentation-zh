@@ -2,7 +2,7 @@ import { type DefaultTheme, defineConfig } from "vitepress";
 
 export default defineConfig({
 	lang: "zh-Hans",
-	// base: "/apple-developer-documentation-zh/",
+	base: "/apple-developer-documentation-zh/",
 	title: "Apple 开发者文档",
 	description: "浏览最新的示例代码、文章、教程和 API 参考。",
 	srcExclude: ["**/README.md", "**/TODO.md"],
